@@ -113,6 +113,62 @@ Returns the connection object or displays an error if connection fails.
   - Calls the ```login()``` function to start the application.
   - Depending on the user's role (```admin``` or ```user```), appropriate actions and menus are displayed using Streamlit's sidebar and tabs.
 
+### 5) /backend/llmper.py
+
+- Imports
+    - The script imports necessary libraries and modules:
+        - ```os```: For interacting with the operating system, specifically to manage directories and file operations.
+        - ```streamlit```: Framework for creating web applications with Python.
+        - ```PdfReader``` from ```PyPDF2```: Used to read text content from PDF files.
+        - Various modules from ```langchain```, including tools for text splitting, embeddings, vector stores, and chatbot interactions.
+        - ```dotenv```: For loading environment variables from a ```.env``` file.
+
+- Initialization and Environment Variables
+    - ```PDFS_DIR```: Directory path (```pdfs```) where uploaded PDF files are stored.
+    - ```embeddings```: Initializes Spacy embeddings (```en_core_web_sm```) for text processing.
+    - ```openai_api_key```: Retrieves the OpenAI API key from environment variables stored in ```.env```.
+
+- Functions
+    - ```pdf_read(pdf_docs)```: Reads text content from uploaded PDF documents (```pdf_docs```).
+    - ```get_chunks(text)```: Splits the text into manageable chunks using ```RecursiveCharacterTextSplitter```.
+    - ```vector_store(text_chunks)```: Creates a ```FAISS vector store``` from the text chunks using ```embeddings``` and saves it locally.
+    - ```get_conversational_chain(tools, question)```: Sets up a chatbot chain (```ChatOpenAI```) to interact with the user based on retrieved documents and provided tools.
+    - ```user_input(user_question)```: Loads the FAISS vector store (```new_db```) and initiates a conversation with the chatbot based on user input.
+    - ```process_pdf_upload(pdf_docs)```: Handles PDF file uploads, saves them locally, reads their text content, splits into chunks, and creates a vector store.
+    - ```show_upload_interface()```: Displays a file uploader interface in Streamlit to upload PDF files, processes them on button click, and shows success message upon completion.
+    - ```show_chat_interface()```: Sets up the Streamlit interface for chatting with the assistant.
+        - Manages user messages and assistant responses using a persistent session state (```st.session_state.messages```).
+
+### 5) /backend/video.py
+
+- Setup and Sidebar:
+    - Checks if the "```uploaded_videos```" directory exists. If not, it creates one.
+    - Creates a sidebar with options to upload videos (```file_uploader```).
+      
+- Video Upload Section:
+    - Allows users to upload videos (```.mp4``` or ```.avi```) through the sidebar. It validates the file format and saves uploaded videos to the "```uploaded_videos```" directory.
+- List of Uploaded Videos:
+    - Displays a header and lists all videos currently stored in the "```uploaded_videos```" directory using ```os.listdir```.
+    - For each video found, it displays the video using ```st.video``` and shows the video's filename as a caption.
+
+- Grid Display of Videos:
+    - If videos are found in the specified ```video_folder```, they are displayed in a grid pattern (```num_columns``` across).
+    - Each video is displayed using ```st.video``` within a column (```st.columns```), along with its filename as a caption.
+
+- No Videos Found:
+    - If no videos are found in the "```uploaded_videos```" directory, it displays an informational message using ```st.warning```.
+      
+2. ```show_videos()```
+
+- Title:
+    - Displays a title "List of Videos".
+- List of Videos:
+   - Retrieves all ```.mp4``` files from the ```video_folder``` directory using ```os.listdir``` and ```filters``` them based on the file extension.
+   - Displays each video using ```st.video``` with the video content read directly from the file using open and read.
+- Error Handling:
+    - Uses a try-except block to catch and display errors if there are any issues loading a video file.
+ 
+# SCREENSHORT:-
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/frontendcreateticket.PNG)
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/frontendcreateticketsub.PNG)
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/frontendupdateticketsub.PNG)
