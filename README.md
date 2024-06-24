@@ -225,7 +225,7 @@ Returns the connection object or displays an error if connection fails.
 - Error Handling:
     - Uses a try-except block to catch and display errors if there are any issues loading a video file.
  
-# SCREENSHORT:-
+# SCREENSHOTS:-
 - frontend rag chatbot
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/frontendragchatbot.PNG)
 - frontend create ticket
