@@ -25,7 +25,7 @@ OPENAI_API_KEY=your_openai_api_key
 - Run the multipage app
 To run streamlit app, run:
 ```shell
-streamlit run charboy.py
+streamlit run chatboy.py
 ```
 
 ## Overall Structure and Functionality: 
@@ -197,28 +197,51 @@ Returns the connection object or displays an error if connection fails.
     - Uses a try-except block to catch and display errors if there are any issues loading a video file.
  
 # SCREENSHORT:-
-![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/frontendcreateticket.PNG)
+- frontend rag chatbot
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/frontendragchatbot.PNG)
+- frontend create ticket
+![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/frontendcreateticket.PNG)
+- frontend create ticket
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/frontendcreateticketsub.PNG)
+- frontend update ticket sub
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/frontendupdateticketsub.PNG)
+- login admin and user
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/login-admin-user.PNG)
+- admin side Ticket Data Dashboard 1
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/adminsideTicketDataDashboard.PNG)
+- admin side Ticket Data Dashboard 2
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/adminsideTicketDataDashboardvis1.PNG)
+- admin side Ticket Data Dashboard 3
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/adminsideTicketDataDashboardvis2.PNG)
+- list all data Filter dataframe
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/listalldataFilterdataframe.PNG)
+- admin side Read Records
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/adminsideReadRecordsforadmin.PNG)
+- admin side update Records
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/adminsideupdateRecordsforadmin.PNG)
+- admin side delete Records
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/adminsidedeleteRecordsforadmin.PNG)
+- admin side llm rag Upload PDF File
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/adminsidellmragUploadPDFFile.PNG)
+- admin side Register User
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/adminsideRegisterUserbyadmin.PNG)
+- admin side User Account Details
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/adminsideUserAccountDetailsbyadmin.PNG)
+- admin side upload video for user
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/adminsideuploadvideouserbyadmin.PNG)
+- admin side SignOut
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/adminsideSignOut.PNG)
+- home and welcome joke
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/homeandwelcomejoke.PNG)
+- User side Account Details
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/UsersideAccountDetails.PNG)
+- user side Read Records
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/usersideReadRecordsforUser.PNG)
+- user side delete Records
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/usersideupdateRecordsforUser.PNG)
+- user side delete Records
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/usersidedeleteRecordsforUser.PNG)
+- video User:
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/usersidevideoUser.PNG)
 
 
