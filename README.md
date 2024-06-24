@@ -1,6 +1,35 @@
 # Ticket_Management_and_Rag-LLM-HelpBot 
 Ticket_Management_and_Rag-LLM-HelpBot is a comprehensive system designed to streamline ticket management and enhance customer support through AI automation. The system allows users to efficiently create, update, and search tickets, improving organizational efficiency. Integration of Langchain (LLM) and Python facilitates an AI-powered chatbot that offers automated customer support. This integration enhances responsiveness and interaction quality, providing users with timely assistance and resolving queries effectively.
 
+## Files
+
+```{}
+Ticket_management_and_Rag-LLM-HelpBot
+|-- chatboy.py
+|-- pdfs
+  |-- uploaded_file_0.pdf
+  |-- faiss_db
+    |-- index.faiss
+    |-- index.pkl
+|-- backend
+  |--.env
+  |-- account_details.py
+  |-- cuad.py
+  |-- dashoard.py
+  |-- database.py
+  |-- fakedatamaker.py
+  |-- home.py
+  |-- intergationopration.py
+  |-- listalldata.py
+  |-- llmper.py
+  |-- main.py
+  |-- register.py
+  |-- useraccountdetail.py
+  |-- useroparation.py
+  |-- video.py
+|-- requirements.txt
+```
+
 ### Environment Setup:-
 - Requirements:
   - Python 3.9+
