@@ -1,5 +1,35 @@
 # Ticket_Management_and_Rag-LLM-HelpBot 
 Ticket_Management_and_Rag-LLM-HelpBot is a comprehensive system designed to streamline ticket management and enhance customer support through AI automation. The system allows users to efficiently create, update, and search tickets, improving organizational efficiency. Integration of Langchain (LLM) and Python facilitates an AI-powered chatbot that offers automated customer support. This integration enhances responsiveness and interaction quality, providing users with timely assistance and resolving queries effectively.
+
+### Environment Setup:-
+- Requirements:
+  - Python 3.9+
+  - Nmap
+  - Npcap (Windows Only if required)
+- ### Create by using Python venv
+    - Create a Python venv: ```python -m <envname> .venv```
+    - Activate the Python venv: ```.venv/Scripts/activate.bat```
+- ### Create by using conda env - python 3.9
+    - Create a Python venv: ```conda create -n <envname> python=3.9```
+
+- ### activate and initialize virtual env
+    - ```conda activate <envname>```
+
+- Clone this git repository: ```git clone https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot```
+- Go into the project: ```cd Ticket_management_and_Rag-LLM-HelpBot```
+- To securely store and load sensitive information, create a .env file with the following content:
+```
+# .env file
+OPENAI_API_KEY=your_openai_api_key
+```
+- RUN ```pip install -r requirements.txt```:
+  - This line installs the Python dependencies listed in the ```requirements.txt``` file using pip. This step is done within the container during the image build process
+- Run the multipage app
+To run streamlit app, run:
+```shell
+streamlit run charboy.py
+```
+
 ## Overall Structure and Functionality: 
 
 ### 1) chatboy.py:- 
