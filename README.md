@@ -1,10 +1,10 @@
-# Ticket_Management_and_Rag-LLM-HelpBot 
-Ticket_Management_and_Rag-LLM-HelpBot is a comprehensive system designed to streamline ticket management and enhance customer support through AI automation. The system allows users to efficiently create, update, and search tickets, improving organizational efficiency. Integration of Langchain (LLM) and Python facilitates an AI-powered chatbot that offers automated customer support. This integration enhances responsiveness and interaction quality, providing users with timely assistance and resolving queries effectively.
+# Help_Desk_Ticket_management_and_Rag-LLM-HelpBot
+Help_Desk and Ticket_management and Rag LLM HelpBot is a comprehensive system designed to streamline ticket management and enhance customer support through AI automation. The system allows users to efficiently create, update, and search tickets, improving organizational efficiency. Integration of Langchain (LLM) and Python facilitates an AI-powered chatbot that offers automated customer support. This integration enhances responsiveness and interaction quality, providing users with timely assistance and resolving queries effectively.
 
 ## Files
 
 ```{}
-Ticket_management_and_Rag-LLM-HelpBot
+Help_Desk_Ticket_management_and_Rag-LLM-HelpBot
 |-- chatboy.py
 |-- pdfs
   |-- uploaded_file_0.pdf
@@ -42,8 +42,8 @@ Ticket_management_and_Rag-LLM-HelpBot
 
 - ### activate and initialize virtual env
     - ```conda activate <envname>```
-- Clone this git repository: ```git clone https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot```
-- Go into the project: ```cd Ticket_management_and_Rag-LLM-HelpBot```
+- Clone this git repository: ```git clone https://github.com/siddhant-pawar/Help_Desk_Ticket_management_and_Rag-LLM-HelpBot```
+- Go into the project: ```cd Help_Desk_Ticket_management_and_Rag-LLM-HelpBot```
 - To securely store and load sensitive information, create a ```.env``` file with the following content:
 ```
 # .env file
