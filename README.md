@@ -200,6 +200,7 @@ Returns the connection object or displays an error if connection fails.
  
 # SCREENSHORT:-
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/frontendcreateticket.PNG)
+![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/frontendragchatbot.PNG)
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/frontendcreateticketsub.PNG)
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/frontendupdateticketsub.PNG)
 ![alt text](https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot/blob/main/op/login-admin-user.PNG)
