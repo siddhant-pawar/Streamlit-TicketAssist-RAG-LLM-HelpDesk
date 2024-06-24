@@ -4,8 +4,7 @@ Ticket_Management_and_Rag-LLM-HelpBot is a comprehensive system designed to stre
 ### Environment Setup:-
 - Requirements:
   - Python 3.9+
-  - Nmap
-  - Npcap (Windows Only if required)
+    
 - ### Create by using Python venv
     - Create a Python venv: ```python -m <envname> .venv```
     - Activate the Python venv: ```.venv/Scripts/activate.bat```
@@ -14,10 +13,9 @@ Ticket_Management_and_Rag-LLM-HelpBot is a comprehensive system designed to stre
 
 - ### activate and initialize virtual env
     - ```conda activate <envname>```
-
 - Clone this git repository: ```git clone https://github.com/siddhant-pawar/Ticket_management_and_Rag-LLM-HelpBot```
 - Go into the project: ```cd Ticket_management_and_Rag-LLM-HelpBot```
-- To securely store and load sensitive information, create a .env file with the following content:
+- To securely store and load sensitive information, create a ```.env``` file with the following content:
 ```
 # .env file
 OPENAI_API_KEY=your_openai_api_key
